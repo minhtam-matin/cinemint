@@ -1,0 +1,334 @@
+input,
+textarea,
+select,
+button {
+    outline: none;
+}
+input {
+    line-height: normal;
+}
+label,
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 43px;
+}
+body {
+    text-align: center;
+    margin-top: 50px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.span404 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn404 {
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: aquamarine;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+button a {
+    text-decoration: none;
+}
+
+.container-404 {
+    width: 600px;
+    height: 380px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.container-404 img {
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+.container-404 a:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 5px 30px rgb(0 0 0 / 30%);
+    position: relative;
+    z-index: 99999;
+}
+
+.container-404 a:nth-child(1) {
+    position: absolute;
+    left: 19%;
+    top: 18%;
+}
+.container-404 a:nth-child(2) {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+.container-404 a:nth-child(3) {
+    position: absolute;
+    left: 12%;
+    top: 32%;
+}
+.container-404 a:nth-child(4) {
+    position: absolute;
+    left: 8%;
+    top: 39%;
+}
+.container-404 a:nth-child(5) {
+    position: absolute;
+    left: 4%;
+    top: 47%;
+}
+.container-404 a:nth-child(6) {
+    position: absolute;
+    left: 1%;
+    top: 55%;
+}
+.container-404 a:nth-child(7) {
+    position: absolute;
+    left: -2%;
+    top: 62%;
+}
+.container-404 a:nth-child(8) {
+    position: absolute;
+    left: 5%;
+    top: 62%;
+}
+.container-404 a:nth-child(9) {
+    position: absolute;
+    left: 12%;
+    top: 62%;
+}
+.container-404 a:nth-child(10) {
+    position: absolute;
+    left: 19%;
+    top: 62%;
+}
+.container-404 a:nth-child(11) {
+    position: absolute;
+    left: 25.5%;
+    top: 62%;
+}
+.container-404 a:nth-child(12) {
+    position: absolute;
+    left: 17%;
+    top: 33%;
+}
+.container-404 a:nth-child(13) {
+    position: absolute;
+    left: 17%;
+    top: 53.5%;
+}
+.container-404 a:nth-child(14) {
+    position: absolute;
+    left: 17%;
+    top: 43.5%;
+}
+.container-404 a:nth-child(15) {
+    position: absolute;
+    left: 17%;
+    top: 69.5%;
+}
+.container-404 a:nth-child(16) {
+    position: absolute;
+
+    left: 19%;
+    top: 62%;
+}
+.container-404 a:nth-child(17) {
+    position: absolute;
+    left: 17%;
+    top: 77%;
+}
+.container-404 a:nth-child(18) {
+    position: absolute;
+    left: 41%;
+    top: 20%;
+}
+.container-404 a:nth-child(19) {
+    position: absolute;
+
+    left: 38%;
+    top: 26%;
+}
+.container-404 a:nth-child(20) {
+    position: absolute;
+    left: 36%;
+    top: 34%;
+}
+.container-404 a:nth-child(21) {
+    position: absolute;
+    left: 35%;
+    top: 43%;
+}
+.container-404 a:nth-child(22) {
+    position: absolute;
+    left: 35%;
+    top: 52%;
+}
+.container-404 a:nth-child(23) {
+    position: absolute;
+    left: 35.5%;
+    top: 61%;
+}
+.container-404 a:nth-child(24) {
+    position: absolute;
+    left: 37%;
+    top: 69%;
+}
+.container-404 a:nth-child(25) {
+    position: absolute;
+    left: 41%;
+    top: 76%;
+}
+.container-404 a:nth-child(26) {
+    position: absolute;
+    left: 47%;
+    top: 79%;
+}
+.container-404 a:nth-child(27) {
+    position: absolute;
+    left: 52%;
+    top: 76%;
+}
+.container-404 a:nth-child(28) {
+    position: absolute;
+    left: 55.5%;
+    top: 69%;
+}
+.container-404 a:nth-child(29) {
+    position: absolute;
+    left: 57%;
+    top: 61%;
+}
+.container-404 a:nth-child(30) {
+    position: absolute;
+    left: 58%;
+    top: 52%;
+}
+.container-404 a:nth-child(31) {
+    position: absolute;
+    left: 58%;
+    top: 43%;
+}
+.container-404 a:nth-child(32) {
+    position: absolute;
+    left: 57%;
+    top: 34%;
+}
+.container-404 a:nth-child(33) {
+    position: absolute;
+    left: 55%;
+    top: 26%;
+}
+.container-404 a:nth-child(34) {
+    position: absolute;
+    left: 52%;
+    top: 20%;
+}
+.container-404 a:nth-child(35) {
+    position: absolute;
+    left: 47%;
+    top: 18%;
+}
+.container-404 a:nth-child(36) {
+    position: absolute;
+    top: 20%;
+    left: 87%;
+}
+.container-404 a:nth-child(37) {
+    position: absolute;
+    left: 84%;
+    top: 25%;
+}
+.container-404 a:nth-child(38) {
+    position: absolute;
+    left: 81%;
+    top: 32%;
+}
+.container-404 a:nth-child(39) {
+    position: absolute;
+    left: 77%;
+    top: 39%;
+}
+.container-404 a:nth-child(40) {
+    position: absolute;
+    left: 73%;
+    top: 47%;
+}
+.container-404 a:nth-child(41) {
+    position: absolute;
+    left: 70%;
+    top: 55%;
+}
+.container-404 a:nth-child(42) {
+    position: absolute;
+
+    left: 67%;
+    top: 62%;
+}
+.container-404 a:nth-child(43) {
+    position: absolute;
+    left: 74%;
+    top: 62%;
+}
+.container-404 a:nth-child(44) {
+    position: absolute;
+    left: 81%;
+    top: 62%;
+}
+
+.container-404 a:nth-child(45) {
+    position: absolute;
+    left: 88%;
+    top: 62%;
+}
+.container-404 a:nth-child(46) {
+    position: absolute;
+    left: 94.5%;
+    top: 62%;
+}
+.container-404 a:nth-child(47) {
+    position: absolute;
+    left: 88%;
+    top: 27%;
+}
+.container-404 a:nth-child(48) {
+    position: absolute;
+    left: 88%;
+    top: 35.5%;
+}
+.container-404 a:nth-child(49) {
+    position: absolute;
+    left: 88%;
+    top: 43.5%;
+}
+.container-404 a:nth-child(50) {
+    position: absolute;
+    left: 88%;
+    top: 53%;
+}
+.container-404 a:nth-child(51) {
+    position: absolute;
+    left: 88%;
+    top: 70%;
+}
+.container-404 a:nth-child(52) {
+    position: absolute;
+    left: 88%;
+    top: 79%;
+}
