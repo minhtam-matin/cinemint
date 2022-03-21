@@ -1,0 +1,48 @@
+.container_person {
+    width: 100%;
+    display: inline-flex;
+    margin: 0 3rem;
+    padding-top: 5rem;
+    background-color: #111;
+}
+.pers-left {
+    width: 25%;
+    padding-left: 5rem;
+}
+.social-content {
+    margin-top: 1rem;
+}
+.pers-right {
+    width: 75%;
+    padding-right: 10rem;
+}
+.pers-right p {
+    margin: 3rem 0;
+}
+.icon-social {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.icon-social:hover {
+    color: #f26b38;
+}
+.imdb {
+    font-weight: 700;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.5rem;
+    border: solid 1px #fff;
+}
+.imdb:hover {
+    border: solid 1px #f26b38;
+}
+.info-item {
+    margin-top: 1.5rem;
+}
+.info-item h5 {
+    margin: 0;
+    color: #f26b38;
+}
+.info-item p {
+    color: #fff;
+    margin: 0;
+}

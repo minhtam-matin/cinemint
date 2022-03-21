@@ -1,0 +1,34 @@
+.pagin-container {
+    width: 100%;
+}
+.pagin-content {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f26b38;
+}
+.pagin-content li {
+    background-color: #111;
+    border-color: #f26b38;
+}
+.ant-pagination-disabled {
+    display: none;
+}
+.ant-pagination-item-active {
+    background-color: #1890ff !important;
+    color: #111;
+    font-weight: 700;
+}
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+    background-color: #111;
+    border-color: #f26b38;
+
+    color: #f26b38;
+}
+.ant-pagination-item-link .anticon {
+    color: #f26b38;
+}
+.ant-pagination-options {
+    display: none;
+}

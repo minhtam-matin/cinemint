@@ -1,0 +1,13 @@
+@media screen and (min-width<768px) {
+}
+@media screen and (min-width>=768px) {
+}
+@media screen and (min-width>= 992px) {
+}
+@media screen and (min-width>=1200px) {
+}
+@media screen and (min-width: 1700px) and (max-width: 1920px) {
+    .nav-dropdwn:hover .nav-item {
+        left: -5%;
+    }
+}

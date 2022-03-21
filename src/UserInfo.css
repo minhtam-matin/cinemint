@@ -1,0 +1,55 @@
+.user-info {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.link-info,
+.btn-logOut {
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    /* margin-top: 3.5rem;
+    margin-left: 1rem; */
+}
+.link-info a {
+    overflow-x: hidden;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.link-info a:hover {
+    color: #f26b38;
+}
+.btn-logOut {
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    height: 2rem;
+    transition: 0.3s;
+}
+.btn-logOut:hover {
+    color: #fff;
+    background-color: #f26b38;
+}
+.ant-badge {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.ant-badge-count,
+.ant-badge-dot,
+.ant-badge .ant-scroll-number-custom-component {
+    right: -8px;
+}
+.itemTV_poster {
+    width: 3rem;
+}
+.itemTV_name {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+}

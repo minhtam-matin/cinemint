@@ -1,0 +1,41 @@
+.nav-dropdwn {
+    position: relative;
+    color: #f26b38;
+    cursor: pointer;
+    height: 8rem;
+    padding-top: 3.5rem;
+}
+.nav-title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.nav-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-item ul li {
+    display: block;
+    border: solid 1px #f26b38;
+    background-color: #111;
+    padding: 0.3rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.nav-item ul li:hover {
+    background-color: #f26b38;
+    color: #fff;
+}
+.nav-item {
+    display: none;
+}
+.nav-dropdwn:hover .nav-item {
+    position: absolute;
+    top: 8rem;
+    left: -25%;
+    height: max-content;
+    width: 15rem;
+    list-style: none;
+    display: unset;
+    text-align: center;
+}
