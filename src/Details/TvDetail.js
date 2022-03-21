@@ -6,10 +6,12 @@ import requests from "../requests";
 import axios from "../axios";
 import "./movie-detail.css";
 import Loader from "../loading/Loader";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { muaPhim } from "../features/TvSlice";
+import { selectUser } from "../features/userSlice";
 
 function TvDetail() {
+  const user = useSelector(selectUser);
   let { id } = useParams();
   const dispatch = useDispatch();
   const [movie, setMovie] = useState(null);
@@ -148,7 +150,13 @@ function TvDetail() {
               </p>
               <button
                 className="booking"
-                onClick={() => dispatch(muaPhim(movie))}
+                onClick={() => {
+                  if (!user) {
+                    alert("Vui lòng đăng nhập");
+                  } else {
+                    dispatch(muaPhim(movie));
+                  }
+                }}
               >
                 Mua Phim
               </button>
